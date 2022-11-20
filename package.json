@@ -4,7 +4,14 @@
   "main": "index.js",
   "author": "Ilyass NASR <ilyassnasr@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "fill:db": "node src/db/db-init.js",
+    "run": "node src/index.js"
+  },
   "dependencies": {
+    "eslint": "^8.28.0",
+    "pg": "^8.8.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.9.3"
   }
 }
