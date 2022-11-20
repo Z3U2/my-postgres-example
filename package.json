@@ -1,0 +1,10 @@
+{
+  "name": "backend-sql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ilyass NASR <ilyassnasr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}
